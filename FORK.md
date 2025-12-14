@@ -43,6 +43,11 @@ git rebase main # v1.3.34/github-packages
 git push -u origin fix/5824
 ```
 
+Sometimes it's easier to translate changes manually (rebase conflicts hell). \
+Just create a new branch from desired version of the lib. \
+Commit the changes, bump the package version. \
+Prefer using prepatch `v1.3.34-issue-5824.0` over metadata `v1.3.34+issue-5824.convex-anonymous`.
+
 ## Auto-sync
 
 Create `.github/workflows/sync.yml` file in default (`canary`) branch.
