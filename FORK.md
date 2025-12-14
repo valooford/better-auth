@@ -38,6 +38,7 @@ git fetch https://github.com/RodrigoRafaelSantos7/better-auth-original.git canar
 git checkout fix/5824
 git rebase main # v1.3.34/github-packages
 # *resolve conflicts*
+# git rebase --abort
 # > Current branch fix/5824 is up to date.
 git push -u origin fix/5824
 ```

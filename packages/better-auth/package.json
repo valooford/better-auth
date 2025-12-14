@@ -7,7 +7,7 @@
   "homepage": "https://better-auth.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/better-auth/better-auth",
+    "url": "https://github.com/valooford/better-auth",
     "directory": "packages/better-auth"
   },
   "keywords": [
