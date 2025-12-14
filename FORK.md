@@ -36,7 +36,7 @@ git checkout -b refs/heads/<branch-name> refs/tags/<tag-name>
 # fetch `canary` and create local branch `fix/5824` without adding a new remote
 git fetch https://github.com/RodrigoRafaelSantos7/better-auth-original.git canary:fix/5824
 git checkout fix/5824
-git rebase main
+git rebase main # v1.3.34/github-packages
 # *resolve conflicts*
 # > Current branch fix/5824 is up to date.
 git push -u origin fix/5824
