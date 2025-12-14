@@ -112,6 +112,8 @@ git commit -m "chore: release v1.4.6-issue-5824.0"
 git tag v1.4.6-issue-5824.0
 git push -u origin fix/5824
 git push origin v1.4.6-issue-5824.0 # git push --tags
+# git tag -d v1.0.0
+# git push --delete origin v1.0.0
 ```
 
 Add `.npmrc` file:
