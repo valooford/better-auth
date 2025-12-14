@@ -26,9 +26,3 @@ jobs:
           git checkout main
           git rebase upstream/main
           git push origin main --force-with-lease
-
-      - name: Sync fix branches
-        run: |
-          git checkout fix/5824
-          git rebase main
-          git push origin fix/5824 --force-with-lease
