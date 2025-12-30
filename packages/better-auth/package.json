@@ -1,6 +1,6 @@
 {
   "name": "@valooford/better-auth",
-  "version": "1.3.34+issue-5824.convex-anonymous",
+  "version": "1.3.35-fork.0",
   "description": "The most comprehensive authentication framework for TypeScript.",
   "type": "module",
   "license": "MIT",
